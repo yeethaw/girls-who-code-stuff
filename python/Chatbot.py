@@ -81,7 +81,7 @@ def waifu():
         holo = Image.open('images-for-code/holo.jpg')
         holo.show()
     elif ran == 2:
-        mashiro2 = Image.open('images-for-code/mashiro-2.jpg')
+        mashiro2 = Image.open('images-for-code/mashiro3.jpg')
         mashiro2.show()
     elif ran == 3:
         senko = Image.open('images-for-code/senko.jpg')
