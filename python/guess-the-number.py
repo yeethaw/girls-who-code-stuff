@@ -1,11 +1,11 @@
 from random import *
 
 RandomNumber = randint(1,420)
-print(RandomNumber)
+#print(RandomNumber)
 
 guessnumber = 0
 
-while guessnumber <= 3:
+while guessnumber < 3:
     guess = input("Guess a number between 1 and 420:")
     if not guess.isnumeric():
         print("thats not a number, try again")
@@ -14,6 +14,7 @@ while guessnumber <= 3:
 
     if guess == RandomNumber:
         print("you got it correct, good job!")
+        raise SystemExit
     elif guess != RandomNumber:
         print("you got it wrong. You have", 3 - guessnumber, "guesses left")
     guessnumber += 1
