@@ -1,8 +1,10 @@
 # Add commands to import modules here.
 from PIL import Image
+import face_recognition
+import dlib
 
 
-#funtions
+#functions
 def load_img(name):
     img = Image.open(name)
     return img
@@ -10,11 +12,9 @@ def load_img(name):
 def show_img(img):
     img.show()
 
-# Parameters: The image object to save, the name to save the file as (string)
 def save_img( newimg, filename):
     newimg.save(filename , "JPEG")
 
-#       Returns: A New Image object with the filter applied.
 def obamicon(img):
     pixels = img.getdata()
     newpix = []
@@ -41,3 +41,7 @@ def obamicon(img):
     newimg.putdata(newpix)
 
     return newimg
+
+def noice(img):
+    image = face_recognition.load_image_file("your_file.jpg")
+    face_locations = face_recognition.face_locations(image)

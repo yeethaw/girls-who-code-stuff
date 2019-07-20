@@ -5,13 +5,16 @@ def main():
 
     img = filter.load_img(filename)
 
-    filterchoice = input('what filter do you want? Obamicon ...')
+    filterchoice = input('what filter do you want? Obamicon , noice')
 
 
     if filterchoice == 'obamicon':
         newimg = filter.obamicon(img)
         filter.save_img(newimg , filename + '-obamicon.jpg')
 
+    if filterchoice == 'noice':
+        newimg = filter.noice(img)
+        filter.save_img(newimg ,filename + '-noice.jpg')
 
 
 if __name__ == "__main__":
