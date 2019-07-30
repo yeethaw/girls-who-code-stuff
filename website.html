@@ -3,38 +3,57 @@
 
   <head id = "head">
     <link rel = "stylesheet" href = "website_style.css">
+    <script src = "website_java.js"></script>
   </head>
 
   <body id = "body" >
 
-    <div id = 'aa'>
-    <!–– header ––>
-    <h2 id = "header"> Welcome to my page! </h2>
 
-    <!–– about me section ––>
-    <div id = "about-me">
-      <div><span id = "comments">#ABOUT ME </span></div>
-      <div><span id = "pyth_text">name =</span> <span id = 'string'>"Veronika Ragozina"</span></div>
-      <div><span id = "pyth_text">age =</span> <span id = "value">17</span></div>
-      <div><span id = "pyth_text">birthday =</span><span id = 'string'> "April 10, 2002"</span></div>
-      <div><span id = "pyth_text">favorite_color =</span><span id = 'string'> "pink"</span></div>
-      <div><span id = "pyth_text">dog_status =</span> <span id = 'value'>True </span></div>
-      <div><span id = "pyth_text">location =</span> <span id = 'string'>"New York City"</span></div>
+      <!--Header -->
+      <h2 id = "header"> Welcome to my page! </h2>
+    <div id = "top">
+        <!-- about me -->
+        <div id = "about-me">
+          <div><span id = "comments">#ABOUT ME </span></div>
+          <div><span id = "pyth_text">name =</span> <span id = 'string'>"Veronika Ragozina"</span></div>
+          <div><span id = "pyth_text">age =</span> <span id = "value">17</span></div>
+          <div><span id = "pyth_text">birthday =</span><span id = 'string'> "April 10, 2002"</span></div>
+          <div><span id = "pyth_text">nationality =</span> <span id = 'string'>"Ukraine"</span></div>
+          <div><span id = "pyth_text">location =</span> <span id = 'string'>"New York City"</span></div>
+          <div><span id = "pyth_text">favorite_color =</span><span id = 'string'> "pink"</span></div>
+          <div><span id = "pyth_text">dog_status =</span> <span id = 'value'>True </span></div>
+
+        </div>
+
+        <!-- self portrait -->
+        <div id = "img">
+          <img src = "aa.jpeg" alt = "thot" height = "400" width = auto>
+        </div>
+    </div>
+    <!-- Galleries -->
+    <div id = "gallery">
+
+      <!-- Art Gallery -->
+
+      <span class = "gall-text">Art Gallery - </span>
+      <div id = "art">
+        <button class = "gal-button" onclick = "imgshow()"> New image </button>
+        <div class = "images">
+          <img src = "skyfall.jpg" class = "image" id = "skyfall" height = "200" width = auto>
+          <img src = "pink-female.jpg" class = "image" id = "pink-gal" height = "200" width = auto>
+        </div>
+      </div>
     </div>
 
-    <!–– self portrait image ––>
-    <div id = "img">
-      <img src = "aa.jpeg" alt = "thot" height = "200" width = auto>
-    </div>
-
-    <!–– socaial media sections ––>
+    <!-- Social media -->
     <div id = "social-media">
-      <a href = "https://www.instagram.com/kaibero/"> Art Finsta </a>
+      <div class = "but-cent">
+        <a class = "button" href = "https://www.instagram.com/kaibero/"> Art Finsta </a>
 
-      <a href = "https://www.instagram.com/poyoshe/"> Art Spam </a>
+        <a class = "button" href = "https://www.instagram.com/poyoshe/"> Art Spam </a>
 
-      <a href = "https://twitter.com/kaibero"> Personal Twitter </a>
-    </div>
+        <a class = "button" href = "https://twitter.com/kaibero"> Personal Twitter </a>
+      </div>
     </div>
   </body>
 </html>

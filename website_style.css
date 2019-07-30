@@ -2,12 +2,31 @@
   background-color: #ffe0ec
 }
 
+#top{
+  border: 5px hidden;
+  margin-bottom: 20px;
+}
+
 #aa{
   border: 5px #4287f5;
 }
 
 #header{
+  background: #ffffff;
   text-align: center;
+}
+
+#header{
+  border: 8px solid #000000;
+  box-shadow: 10px 10px #ff96ad;
+  padding:20px;
+  width:fit-content;
+  width:-webkit-fit-content;
+  width:-moz-fit-content;
+  margin: 0 auto;
+
+  margin-bottom: 40px;
+
 }
 
 #about-me {
@@ -16,17 +35,23 @@
 }
 
 #about-me-header {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 #about-me {
   border-radius: 25px;
   background: #282c34;
+  margin-top: 20px;
   margin-bottom: 10px;
+  margin-left: 250px;
   padding: 20px;
   float: left ;
   font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier;
 
+}
+
+#gallery{
+  margin-top: 500px;
 }
 
 #comments{
@@ -45,15 +70,65 @@
   color: #abb2bf
 }
 
-#img{
-  margin-top: 30px;
-  margin-bottom: 10px;
-}
-
 #social-media {
-  float:center;
+  border:hidden solid;
+  text-align: center;
+  margin: 325px;
 }
 
-#img {
-  margin-top: 10px;
+#img{
+  float:right;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-right:240px;
+}
+
+#art{
+  border-style: inset;
+  text-align: center;
+  width:fit-content;
+  width:-webkit-fit-content;
+  width:-moz-fit-content;
+  position: absolute;
+  left: 50%;
+  margin-left: -150px;
+  padding: 20px;
+}
+
+.image{
+  position: relative;
+}
+
+.gall-text{
+    color:#f26f8c;
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+}
+
+
+.button {
+  float: left;
+  position: relative;
+}
+
+.button {
+         background-color: #ff3690;
+         border: none;
+         color: white;
+         padding: 20px 34px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         font-size: 20px;
+         margin: 4px 2px;
+         cursor: pointer;
+         }
+
+
+.but-cent{
+  margin-top: 400px;
+  position: absolute;
+  left: 50%;
+  margin-left: -250px;
 }
