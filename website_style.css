@@ -2,6 +2,14 @@
   background-color: #ffe0ec
 }
 
+#aa{
+  border: 5px #4287f5;
+}
+
+#header{
+  text-align: center;
+}
+
 #about-me {
     border: 4px solid #cffeff;
     float:left ;
@@ -17,6 +25,12 @@
   margin-bottom: 10px;
   padding: 20px;
   float: left ;
+  font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier;
+
+}
+
+#comments{
+  color:#898989
 }
 
 #string{
